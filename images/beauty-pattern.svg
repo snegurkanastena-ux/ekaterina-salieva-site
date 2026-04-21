@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="hairPattern" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <!-- Ножницы -->
+      <g transform="translate(60, 80)" opacity="0.6">
+        <circle cx="8" cy="6" r="4" fill="none" stroke="#b85a3d" stroke-width="1.5"/>
+        <circle cx="16" cy="6" r="4" fill="none" stroke="#b85a3d" stroke-width="1.5"/>
+        <path d="M 12 10 L 8 20 M 12 10 L 16 20" stroke="#b85a3d" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="8" y1="20" x2="16" y2="20" stroke="#b85a3d" stroke-width="1.5"/>
+      </g>
+
+      <!-- Расчёска -->
+      <g transform="translate(280, 120)" opacity="0.6">
+        <rect x="2" y="2" width="16" height="12" rx="2" fill="none" stroke="#b85a3d" stroke-width="1.5"/>
+        <line x1="4" y1="14" x2="4" y2="22" stroke="#b85a3d" stroke-width="1"/>
+        <line x1="8" y1="14" x2="8" y2="22" stroke="#b85a3d" stroke-width="1"/>
+        <line x1="12" y1="14" x2="12" y2="22" stroke="#b85a3d" stroke-width="1"/>
+        <line x1="16" y1="14" x2="16" y2="22" stroke="#b85a3d" stroke-width="1"/>
+      </g>
+
+      <!-- Фен -->
+      <g transform="translate(140, 240)" opacity="0.6">
+        <circle cx="12" cy="8" r="6" fill="none" stroke="#b85a3d" stroke-width="1.5"/>
+        <path d="M 18 8 L 24 6 L 24 10 Z" fill="none" stroke="#b85a3d" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M 12 14 L 12 20" stroke="#b85a3d" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+
+      <!-- Машинка для стрижки -->
+      <g transform="translate(320, 280)" opacity="0.6">
+        <rect x="2" y="6" width="14" height="8" rx="1" fill="none" stroke="#b85a3d" stroke-width="1.5"/>
+        <line x1="4" y1="6" x2="4" y2="2" stroke="#b85a3d" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="12" y1="6" x2="12" y2="2" stroke="#b85a3d" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M 18 10 L 22 10" stroke="#b85a3d" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+
+      <!-- Флакон -->
+      <g transform="translate(80, 300)" opacity="0.6">
+        <path d="M 8 4 L 6 8 L 6 18 Q 6 20 8 20 L 12 20 Q 14 20 14 18 L 14 8 L 12 4 Z" fill="none" stroke="#b85a3d" stroke-width="1.5" stroke-linejoin="round"/>
+        <line x1="8" y1="4" x2="12" y2="4" stroke="#b85a3d" stroke-width="1.5"/>
+      </g>
+
+      <!-- Капли -->
+      <g transform="translate(240, 60)" opacity="0.5">
+        <circle cx="6" cy="4" r="2" fill="none" stroke="#b85a3d" stroke-width="1"/>
+        <circle cx="12" cy="8" r="2" fill="none" stroke="#b85a3d" stroke-width="1"/>
+        <circle cx="8" cy="14" r="2" fill="none" stroke="#b85a3d" stroke-width="1"/>
+      </g>
+
+      <!-- Линия для разнообразия -->
+      <line x1="0" y1="200" x2="50" y2="200" stroke="#b85a3d" stroke-width="0.8" opacity="0.3"/>
+      <line x1="350" y1="200" x2="400" y2="200" stroke="#b85a3d" stroke-width="0.8" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#hairPattern)"/>
+</svg>
